@@ -12,7 +12,11 @@
     <artifactId>guli-microservice-edu</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.guli</groupId>
+            <artifactId>guli-framework-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--mybatis-plus-->
         <dependency>
             <groupId>com.baomidou</groupId>
